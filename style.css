@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@600&display=swap');
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(./images/Fast-Food-overload-1600x1106-8-12063.jpeg);
+    background-size: cover;
+}
+
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+} 
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'kanit';
+    color: red;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header .logo h1 {
+    margin: 10px;
+}
+
+.header .logo i{
+    font-size: 30px;
+}
+
+.header .logo:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.header .menu{
+    display: flex;
+    font-size: 30px;
+    font-family: 'noto sans';
+}
+
+
+.menu li {
+    cursor: pointer;
+    margin: 30px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.menu li:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main .img2 {
+    position: absolute;
+    right: 120px;
+} 
+
+.main img {
+    width: 800px;
+    height: 550px;
+}
+
+.main .text .primeiro {
+    color: #fff;
+    font-size: 60px;
+    width: 490px;
+    text-align: center;
+    font-family: 'noto sans';
+    transform: rotate(10deg);
+    margin: 20px;
+}
+
+.main .text h2 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.main .text {
+    color: #fff;
+    display: inline-block;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.main .order {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    position: absolute;
+    margin: 10px;
+    left: 300px;
+    cursor: pointer;
+}
+
+.main .order:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.text .segundo {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+}
+
+.redes a {
+    color: #fff;
+    font-size: 30px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: center;
+}
